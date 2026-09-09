@@ -2,19 +2,13 @@
 
 `technical-image-generation-skill` 用于制作有明确解释任务的技术插图。它定义了一套可复用的水彩信息图语言：米白纸纹、细墨线、低饱和蓝绿紫橙、编号卡片、清楚的箭头和克制的图例。
 
-`technical-image-generation-skill` creates technical illustrations with a clear explanatory job. It defines a reusable watercolor-infographic language: off-white paper texture, fine ink outlines, muted blue/green/purple/orange, numbered cards, readable arrows, and restrained legends.
-
 它不绑定任何产品、工作流或发布渠道。你可以把它用于文章、演示文稿、设计文档、产品说明、培训材料或技术复盘；前提是图片确实能让读者更快理解一个问题。
-
-It is not tied to any product, workflow, or publication channel. Use it in articles, slide decks, design documents, product explainers, training material, or technical retrospectives, as long as the image genuinely helps readers understand a question faster.
 
 ## Skill Overview / Skill 总览
 
 <img src="assets/technical-image-generation-overview-v1.png" alt="Technical Image Generation Skill overview with seven technical illustration families" width="100%">
 
 这张总览图把七种解释任务放在同一张图里，并用底部图例强调清晰文字、结构关系和统一视觉语言。
-
-This overview places the seven explanatory jobs in one visual and uses its bottom legend to emphasize readable copy, structural relationships, and one coherent visual language.
 
 ## What It Covers / 覆盖范围
 
@@ -95,67 +89,6 @@ One representative image is kept for each illustration family. The grid appears 
 </tr>
 </table>
 
-### Process / 流程
-
-编号主路径与失败分支。先读通主路径，再从底部或侧边回收异常、拒绝和反馈。
-
-Numbered primary path with failure branches. Make the main path readable first, then collect exceptions, rejections, and feedback below or beside it.
-
-### Architecture / 架构
-
-组件、职责与关系边界。先稳定地划分组件和职责，再让连线解释协作关系。
-
-Components, responsibilities, and relationship boundaries. Establish components and responsibilities first, then use connections to explain cooperation.
-
-### Overview / 总览
-
-全局路径加一个局部放大区。读者先获得全貌，再看到影响决策的局部机制。
-
-A whole-system path with one bounded zoom-in. Readers see the whole first, then the local mechanism that affects the decision.
-
-### Comparison / 对比
-
-固定维度下的选择与取舍。用统一卡片、少量颜色和简短判断组织横向比较。
-
-Choices and trade-offs on fixed dimensions. Use consistent cards, a small color vocabulary, and concise judgments for comparison.
-
-### Deep Dive / 机制下钻
-
-聚焦一个可追踪的局部机制，不试图概述整个系统。
-
-Focus on one traceable local mechanism rather than attempting to summarize the whole system.
-
-### Conceptual Explainer / 概念解释
-
-从直觉回到术语与适用边界。概念图也需要说明范围，不能只留下好看的隐喻。
-
-Move from intuition back to terms and scope. A conceptual illustration needs boundaries; it cannot stop at an attractive metaphor.
-
-### Data Story / 数据故事
-
-把指标、观察点与决策放在同一路径，并保留单位、基线和条件。
-
-Put metrics, observation points, and decisions on one path while retaining units, baselines, and conditions.
-
 ## What Good Output Looks Like / 好图的标准
 
 一张合格图不是“内容很多的漂亮图片”。它应让读者在几秒内知道主题，在半分钟内走完整条主路径，并能在回看时准确找到关键边界、反馈或例外。文字、数字与连线出错时，宁可重做，也不要拿“手绘感”搪塞。
-
-A good output is not merely a pretty image with lots of content. Within seconds, readers should know the topic; within half a minute, they should be able to follow the primary path and find key boundaries, feedback, or exceptions on return. If copy, numbers, or connections are wrong, regenerate; “hand-drawn character” is not an excuse.
-
-## Directory Layout / 目录结构
-
-```text
-technical-image-generation-skill/
-├── SKILL.md
-├── README.md
-└── references/
-    ├── architecture-support.md
-    ├── comparison.md
-    ├── conceptual-explainer.md
-    ├── data-story.md
-    ├── deep-dive.md
-    ├── overview.md
-    ├── process.md
-    └── quality-checklist.md
-```
